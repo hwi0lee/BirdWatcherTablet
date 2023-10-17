@@ -1,38 +1,86 @@
-{
-    "bird1":{
+{   
+    "bird0":{
+        "Name":"박새",
         "Habitat":"City",
         "Size":0,
         "Beak":"t0",
         "Color":["White", "Black"]
         },
-    "bird2":{
+    "bird1":{
+        "Name":"후투티",
         "Habitat":"City",
-        "Size":4,
-        "Beak":"t3",
-        "Color":["Blue", "Brown"]
+        "Size":1,
+        "Beak":"t2",
+        "Color":["Orange", "Black"]
+        },
+    "bird2":{
+        "Name":"어치",
+        "Habitat":"City",
+        "Size":1,
+        "Beak":"t0",
+        "Color":["Blue", "Brown", "Black"]
         },
     "bird3":{
-        "Habitat":"Ocean",
-        "Size":3,
-        "Beak":"t2",
-        "Color":["Red", "Yellow"]
+        "Name":"딱새",
+        "Habitat":"City",
+        "Size":0,
+        "Beak":"t0",
+        "Color":["Orange", "Black", "White"]
         },
     "bird4":{
-        "Habitat":"Ocean",
-        "Size":5,
-        "Beak":"t1",
-        "Color":["Orange", "White"]
-        },
-    "bird5":{
-        "Habitat":"Swamp",
+        "Name":"꾀꼬리",
+        "Habitat":"City",
         "Size":1,
-        "Beak":"t4",
+        "Beak":"t0",
         "Color":["Yellow", "Black"]
         },
+    "bird5":{
+        "Name":"바다직박구리",
+        "Habitat":"Ocean",
+        "Size":1,
+        "Beak":"t0",
+        "Color":["Blue", "Orange"]
+        },
     "bird6":{
-        "Habitat":"Swamp",
+        "Name":"제비갈매기",
+        "Habitat":"Ocean",
         "Size":2,
+        "Beak":"t2",
+        "Color":["Black", "White"]
+        },
+    "bird7":{
+        "Name":"물수리",
+        "Habitat":"Ocean",
+        "Size":3,
         "Beak":"t1",
-        "Color":["Blue", "White"]
-        }
+        "Color":["Brown", "White"]
+        },
+    "bird8":{
+        "Name":"대백로",
+        "Habitat":"Swamp",
+        "Size":5,
+        "Beak":"t2",
+        "Color":["White", "Yellow"]
+        },
+    "bird9":{
+        "Name":"물꿩",
+        "Habitat":"Swamp",
+        "Size":3,
+        "Beak":"t2",
+        "Color":["White", "Yellow", "Brown"]
+        },
+    "bird10":{
+        "Name":"따오기",
+        "Habitat":"Swamp",
+        "Size":5,
+        "Beak":"t3",
+        "Color":["Red", "White", "Black"]
+        },
+    "bird11":{
+        "Name":"할미새",
+        "Habitat":"Swamp",
+        "Size":0,
+        "Beak":"t0",
+        "Color":["White", "Gray", "Black"]
+        }   
 }

@@ -65,14 +65,14 @@ const ResultPage = () => {
             if (profile[key]["Beak"] == data['beak']){
                 score[key] += 1
             }
-            score[key] += countCommonElements(profile[key]['Color'], data['color'])     
+            score[key] += (countCommonElements(profile[key]['Color'], data['color']))/data['color'].length    
         }
 
         result = findRandomMaxKey(score)
 
         return result
     }
-    const result = rule(data)
+    const result = profile[rule(data)]['Name']
 
     return (
         <div>

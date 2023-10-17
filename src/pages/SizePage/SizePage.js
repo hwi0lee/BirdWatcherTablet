@@ -3,6 +3,7 @@ import { useNavigate } from "react-router"
 import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
+import navTo from "../../navTo";
 
 const SizePage = () => {
     const navigator = useNavigate()
@@ -23,7 +24,7 @@ const SizePage = () => {
             <button onClick={sets4}>s4</button>
             <button onClick={sets5}>s5</button>
             {data['size']}
-            <button onClick={() => navigator("/beak")}>다음</button>
+            <button className="nextBtn" onClick={() =>navTo(navigator, "size", data, "/beak")}></button>
         </div>
     )
 }

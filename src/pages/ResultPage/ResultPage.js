@@ -77,7 +77,7 @@ const ResultPage = () => {
     return (
         <div>
             {result}
-            <button onClick={() => window.location.href = '/habitat'}>처음으로</button>
+            <button className="returnBtn" onClick={() => window.location.href = '/habitat'}></button>
         </div>
     )
 }

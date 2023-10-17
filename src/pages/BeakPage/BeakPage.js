@@ -3,6 +3,7 @@ import { useNavigate } from "react-router"
 import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
+import navTo from "../../navTo";
 
 const BeakPage = () => {
     const navigator = useNavigate()
@@ -21,7 +22,7 @@ const BeakPage = () => {
             <button onClick={sett3}>t3</button>
             <button onClick={sett4}>t4</button>
             {data['beak']}
-            <button onClick={() => navigator("/color")}>다음</button>
+            <button className="nextBtn" onClick={() => navTo(navigator, "beak", data, "/color")}></button>
         </div>
     )
 }

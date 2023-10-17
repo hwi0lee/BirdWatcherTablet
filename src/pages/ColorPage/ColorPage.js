@@ -3,6 +3,7 @@ import { useNavigate } from "react-router"
 import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
+import navTo from "../../navTo";
 
 const ColorPage = () => {
     const MAXSEL = 3
@@ -142,7 +143,7 @@ const ColorPage = () => {
             <button onClick={setBrown}>Brown</button>
             <button onClick={setBlack}>Black</button>
             {colorlist}
-            <button onClick={() => navigator("/result")}>다음</button>
+            <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result")}></button>
         </div>
     )
 }

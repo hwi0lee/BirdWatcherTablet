@@ -6,7 +6,7 @@ import DataContext from "../../DataContext"
 
 const SizePage = () => {
     const navigator = useNavigate()
-    const {data, setData} = useContext(DataContext);
+    const {data, setData} = useContext(DataContext)
     const sets0 = () => setData({...data, "size": 0})
     const sets1 = () => setData({...data, "size": 1})
     const sets2 = () => setData({...data, "size": 2})

@@ -8,11 +8,11 @@ const BeakPage = () => {
     const navigator = useNavigate()
     const {data, setData} = useContext(DataContext)
     const cx = classNames.bind(styles)
-    const sett0 = () => setData({...data, "beak": 0})
-    const sett1 = () => setData({...data, "beak": 1})
-    const sett2 = () => setData({...data, "beak": 2})
-    const sett3 = () => setData({...data, "beak": 3})
-    const sett4 = () => setData({...data, "beak": 4})
+    const sett0 = () => setData({...data, "beak": "t0"})
+    const sett1 = () => setData({...data, "beak": "t1"})
+    const sett2 = () => setData({...data, "beak": "t2"})
+    const sett3 = () => setData({...data, "beak": "t3"})
+    const sett4 = () => setData({...data, "beak": "t4"})
     return (
         <div>
             <button onClick={sett0}>t0</button>

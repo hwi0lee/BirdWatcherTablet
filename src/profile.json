@@ -1,0 +1,38 @@
+{
+    "bird1":{
+        "Habitat":"City",
+        "Size":0,
+        "Beak":"t0",
+        "Color":["White", "Black"]
+        },
+    "bird2":{
+        "Habitat":"City",
+        "Size":4,
+        "Beak":"t3",
+        "Color":["Blue", "Brown"]
+        },
+    "bird3":{
+        "Habitat":"Ocean",
+        "Size":3,
+        "Beak":"t2",
+        "Color":["Red", "Yellow"]
+        },
+    "bird4":{
+        "Habitat":"Ocean",
+        "Size":5,
+        "Beak":"t1",
+        "Color":["Orange", "White"]
+        },
+    "bird5":{
+        "Habitat":"Swamp",
+        "Size":1,
+        "Beak":"t4",
+        "Color":["Yellow", "Black"]
+        },
+    "bird6":{
+        "Habitat":"Swamp",
+        "Size":2,
+        "Beak":"t1",
+        "Color":["Blue", "White"]
+        }
+}

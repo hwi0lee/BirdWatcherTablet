@@ -29,7 +29,6 @@ const ColorPage = () => {
     const cx = classNames.bind(styles)
     useEffect(() => {
         setData({...data, "color":colorlist})
-        console.log(data['color'])
     }, [colorlist])
     const setWhite = () => {
         if (colorlist.length >= MAXSEL){

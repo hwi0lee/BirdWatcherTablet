@@ -43,7 +43,7 @@
     /* Question.1 */
 
     position: absolute;
-    width: 106px;
+    width: 120px;
     height: 21px;
     left: calc(50% - 106px/2 - 514px);
     top: 347px;
@@ -93,8 +93,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 116px;
+    top: 474px;
+    left: 117px;
 }
 .t0.active {
     background-image: url("../../graphic_assets/beak/3_1_selected.png");
@@ -106,8 +106,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 116px;
+    top: 474px;
+    left: 117px;
 }
 
 .t1 {
@@ -120,8 +120,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 344px;
+    top: 474px;
+    left: 345px;
 }
 .t1.active {
     background-image: url("../../graphic_assets/beak/3_2_selected.png");
@@ -133,8 +133,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 344px;
+    top: 474px;
+    left: 345px;
 }
 
 .t2 {
@@ -147,8 +147,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 572px;
+    top: 474px;
+    left: 573px;
 }
 .t2.active {
     background-image: url("../../graphic_assets/beak/3_3_selected.png");
@@ -160,8 +160,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 572px;
+    top: 474px;
+    left: 573px;
 }
 
 .t3 {
@@ -174,8 +174,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 800px;
+    top: 474px;
+    left: 801px;
 }
 .t3.active {
     background-image: url("../../graphic_assets/beak/3_4_selected.png");
@@ -187,8 +187,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 800px;
+    top: 474px;
+    left: 801px;
 }
 
 .t4 {
@@ -201,8 +201,8 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 1028px;
+    top: 474px;
+    left: 1029px;
 }
 .t4.active {
     background-image: url("../../graphic_assets/beak/3_5_selected.png");
@@ -214,6 +214,6 @@
     position: absolute;
     width: 208px;
     height: 300px;
-    top: 480px;
-    left: 1028px;
+    top: 474px;
+    left: 1029px;
 }

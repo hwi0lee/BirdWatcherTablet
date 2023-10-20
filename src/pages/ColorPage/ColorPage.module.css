@@ -1,0 +1,326 @@
+.statusbar {
+    background-image: url("../../graphic_assets/status_bar/progress4.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 474px;
+    height: 106px;
+    top: 156px;
+    left: 446px;
+    z-index: 100;
+}
+
+.title {
+    /* 특징 검색 */
+
+    position: absolute;
+    width: 97px;
+    height: 23px;
+    left: calc(50% - 97px/2 - 0.5px);
+    top: 91px;
+
+    font-family: 'The Jamsil OTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    /* or 200% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* On Background/1 */
+    color: #252525;
+
+    z-index: 100;
+
+}
+
+.number {
+    /* Question.1 */
+
+    position: absolute;
+    width: 106px;
+    height: 21px;
+    left: calc(50% - 106px/2 - 514px);
+    top: 347px;
+
+    font-family: 'The Jamsil OTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    /* or 240% */
+    display: flex;
+    align-items: center;
+
+    color: rgba(18, 63, 60, 0.75);
+}
+
+.question {
+/* 마지막 질문입니다! 새의 주요 색상은 뭐였나요? */
+
+position: absolute;
+width: 714px;
+height: 58px;
+left: calc(50% - 714px/2 - 210px);
+top: 369px;
+
+font-family: 'The Jamsil OTF';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 48px;
+/* or 141% */
+display: flex;
+align-items: center;
+
+/* On Background/1 */
+color: #252525;
+}
+
+.white {
+    background-image: url("../../graphic_assets/color/4_white.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 116px;
+}
+.white.active {
+    background-image: url("../../graphic_assets/color/4_white_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 116px;
+}
+
+.gray {
+    background-image: url("../../graphic_assets/color/4_grey.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 245px;
+}
+.gray.active {
+    background-image: url("../../graphic_assets/color/4_grey_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 245px;
+}
+
+.red {
+    background-image: url("../../graphic_assets/color/4_red.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 373px;
+}
+.red.active {
+    background-image: url("../../graphic_assets/color/4_red_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 373px;
+}
+
+.orange {
+    background-image: url("../../graphic_assets/color/4_orange.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 503px;
+}
+.orange.active {
+    background-image: url("../../graphic_assets/color/4_orange_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 503px;
+}
+
+.yellow {
+    background-image: url("../../graphic_assets/color/4_yellow.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 632px;
+}
+.yellow.active {
+    background-image: url("../../graphic_assets/color/4_yellow_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 632px;
+}
+
+.green {
+    background-image: url("../../graphic_assets/color/4_green.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 760px;
+}
+.green.active {
+    background-image: url("../../graphic_assets/color/4_green_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 760px;
+}
+
+.blue {
+    background-image: url("../../graphic_assets/color/4_blue.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 889px;
+}
+.blue.active {
+    background-image: url("../../graphic_assets/color/4_blue_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 889px;
+}
+
+.brown {
+    background-image: url("../../graphic_assets/color/4_brown.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 1019px;
+}
+.brown.active {
+    background-image: url("../../graphic_assets/color/4_brown_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left:1019px;
+}
+
+.black {
+    background-image: url("../../graphic_assets/color/4_black.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left: 1147px;
+}
+.black.active {
+    background-image: url("../../graphic_assets/color/4_black_selected.png");
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-size: contain;
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 560px;
+    left:1147px;
+}

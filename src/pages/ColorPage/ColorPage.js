@@ -133,17 +133,22 @@ const ColorPage = () => {
     }
     return (
         <div>
-            <button onClick={setWhite}>White</button>
-            <button onClick={setGray}>Gray</button>
-            <button onClick={setRed}>Red</button>
-            <button onClick={setOrange}>Orange</button>
-            <button onClick={setYellow}>Yellow</button>
-            <button onClick={setGreen}>Green</button>
-            <button onClick={setBlue}>Blue</button>
-            <button onClick={setBrown}>Brown</button>
-            <button onClick={setBlack}>Black</button>
+            <div className={cx("title")}>특징 검색</div>
+            <div className={cx("statusbar")}/>
+            <div className={cx("number")}>Question. 4</div>
+            <div className={cx("question")}>마지막 질문입니다! 새의 주요 색상은 뭐였나요?</div>
+            <button className={cx("white", {active: colorlist.includes("White")})} onClick={setWhite}></button>
+            <button className={cx("gray", {active: colorlist.includes("Gray")})} onClick={setGray}></button>
+            <button className={cx("red", {active: colorlist.includes("Red")})} onClick={setRed}></button>
+            <button className={cx("orange", {active: colorlist.includes("Orange")})} onClick={setOrange}></button>
+            <button className={cx("yellow", {active: colorlist.includes("Yellow")})} onClick={setYellow}></button>
+            <button className={cx("green", {active: colorlist.includes("Green")})} onClick={setGreen}></button>
+            <button className={cx("blue", {active: colorlist.includes("Blue")})} onClick={setBlue}></button>
+            <button className={cx("brown", {active: colorlist.includes("Brown")})} onClick={setBrown}></button>
+            <button className={cx("black", {active: colorlist.includes("Black")})} onClick={setBlack}></button>
             {colorlist}
             <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result")}></button>
+            <div className='backrec'/>
         </div>
     )
 }

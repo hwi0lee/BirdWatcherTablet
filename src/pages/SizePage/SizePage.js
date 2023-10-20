@@ -16,15 +16,20 @@ const SizePage = () => {
     const sets5 = () => setData({...data, "size": 5})
     const cx = classNames.bind(styles)
     return (
-        <div>
-            <button onClick={sets0}>s0</button>
-            <button onClick={sets1}>s1</button>
-            <button onClick={sets2}>s2</button>
-            <button onClick={sets3}>s3</button>
-            <button onClick={sets4}>s4</button>
-            <button onClick={sets5}>s5</button>
-            {data['size']}
+        <div className="masterdiv">
+            <div className={cx("title")}>특징 검색</div>
+            <div className={cx("statusbar")}/>
+            <div className={cx("number")}>Question. 2</div>
+            <div className={cx("question")}>새의 크기는 어땠나요?</div>
+            <button className={cx("s0", {active: data['size']===0})} onClick={sets0}></button>
+            <button className={cx("s1", {active: data['size']===1})} onClick={sets1}></button>
+            <button className={cx("s2", {active: data['size']===2})} onClick={sets2}></button>
+            <button className={cx("s3", {active: data['size']===3})}onClick={sets3}></button>
+            <button className={cx("s4", {active: data['size']===4})} onClick={sets4}></button>
+            <button className={cx("s5", {active: data['size']===5})}onClick={sets5}></button>
+            {/* {data['size']} */}
             <button className="nextBtn" onClick={() =>navTo(navigator, "size", data, "/beak")}></button>
+            <div className='backrec'/>
         </div>
     )
 }

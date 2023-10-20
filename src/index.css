@@ -12,22 +12,48 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: "The Jamsil OTF";
+  font-weight: normal;
+  src: url("./fonts/The\ Jamsil\ OTF\ 3\ Regular.otf") format("opentype");
+}
+
+.masterdiv {
+  /* text-align: center; */
+}
+
+.backrec {
+  /* Rectangle 66 */
+  position: absolute;
+  width: 1366px;
+  height: 737px;
+  left: 0px;
+  top: 287px;
+  z-index: -100;
+  background: #F1F8F8;
+}
+
 .nextBtn {
   background-image: url("./graphic_assets/buttons/NextBut.png");
   background-color: transparent; /* make the button transparent */
   background-repeat: no-repeat;  /* make the background image appear only once */
-  background-position: 0px 0px;  /* equivalent to 'top left' */
+  background-size: contain;
   border: none;           /* assuming we don't want any borders */
   cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  position: absolute;
   width: 281.67px;
   height: 65px;
+  top: 833px;
+  left: 543px;
 }
+
 
 .returnBtn {
   background-image: url("./graphic_assets/buttons/ReturnBut.png");
   background-color: transparent; /* make the button transparent */
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-position: 0px 0px;  /* equivalent to 'top left' */
+  background-size: contain;
   border: none;           /* assuming we don't want any borders */
   cursor: pointer;        /* make the cursor like hovering over an <a> element */
   width: 281.67px;

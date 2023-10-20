@@ -146,7 +146,7 @@ const ColorPage = () => {
             <button className={cx("blue", {active: colorlist.includes("Blue")})} onClick={setBlue}></button>
             <button className={cx("brown", {active: colorlist.includes("Brown")})} onClick={setBrown}></button>
             <button className={cx("black", {active: colorlist.includes("Black")})} onClick={setBlack}></button>
-            {colorlist}
+            {/* {colorlist} */}
             <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result")}></button>
             <div className='backrec'/>
         </div>

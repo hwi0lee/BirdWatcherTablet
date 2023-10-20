@@ -25,7 +25,7 @@ const BeakPage = () => {
             <button className={cx("t2", {active: data['beak']=="t2"})} onClick={sett2}></button>
             <button className={cx("t3", {active: data['beak']=="t3"})} onClick={sett3}></button>
             <button className={cx("t4", {active: data['beak']=="t4"})} onClick={sett4}></button>
-            {data['beak']}
+            {/* {data['beak']} */}
             <button className="nextBtn" onClick={() => navTo(navigator, "beak", data, "/color")}></button>
             <div className='backrec'/>
         </div>

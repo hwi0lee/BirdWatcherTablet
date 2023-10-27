@@ -83,7 +83,7 @@ color: #252525;
 }
 
 .white {
-    background-image: url("../../graphic_assets/color/4_white.png");
+    background-image: url("../../graphic_assets/color/4_white.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -96,7 +96,7 @@ color: #252525;
     left: 116px;
 }
 .white.active {
-    background-image: url("../../graphic_assets/color/4_white_selected.png");
+    background-image: url("../../graphic_assets/color/4_white_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -110,7 +110,7 @@ color: #252525;
 }
 
 .gray {
-    background-image: url("../../graphic_assets/color/4_grey.png");
+    background-image: url("../../graphic_assets/color/4_grey.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -123,7 +123,7 @@ color: #252525;
     left: 245px;
 }
 .gray.active {
-    background-image: url("../../graphic_assets/color/4_grey_selected.png");
+    background-image: url("../../graphic_assets/color/4_grey_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -137,7 +137,7 @@ color: #252525;
 }
 
 .red {
-    background-image: url("../../graphic_assets/color/4_red.png");
+    background-image: url("../../graphic_assets/color/4_red.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -150,7 +150,7 @@ color: #252525;
     left: 373px;
 }
 .red.active {
-    background-image: url("../../graphic_assets/color/4_red_selected.png");
+    background-image: url("../../graphic_assets/color/4_red_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -164,7 +164,7 @@ color: #252525;
 }
 
 .orange {
-    background-image: url("../../graphic_assets/color/4_orange.png");
+    background-image: url("../../graphic_assets/color/4_orange.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -177,7 +177,7 @@ color: #252525;
     left: 503px;
 }
 .orange.active {
-    background-image: url("../../graphic_assets/color/4_orange_selected.png");
+    background-image: url("../../graphic_assets/color/4_orange_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -191,7 +191,7 @@ color: #252525;
 }
 
 .yellow {
-    background-image: url("../../graphic_assets/color/4_yellow.png");
+    background-image: url("../../graphic_assets/color/4_yellow.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -204,7 +204,7 @@ color: #252525;
     left: 632px;
 }
 .yellow.active {
-    background-image: url("../../graphic_assets/color/4_yellow_selected.png");
+    background-image: url("../../graphic_assets/color/4_yellow_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -218,7 +218,7 @@ color: #252525;
 }
 
 .green {
-    background-image: url("../../graphic_assets/color/4_green.png");
+    background-image: url("../../graphic_assets/color/4_green.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -231,7 +231,7 @@ color: #252525;
     left: 760px;
 }
 .green.active {
-    background-image: url("../../graphic_assets/color/4_green_selected.png");
+    background-image: url("../../graphic_assets/color/4_green_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -245,7 +245,7 @@ color: #252525;
 }
 
 .blue {
-    background-image: url("../../graphic_assets/color/4_blue.png");
+    background-image: url("../../graphic_assets/color/4_blue.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -258,7 +258,7 @@ color: #252525;
     left: 889px;
 }
 .blue.active {
-    background-image: url("../../graphic_assets/color/4_blue_selected.png");
+    background-image: url("../../graphic_assets/color/4_blue_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -272,7 +272,7 @@ color: #252525;
 }
 
 .brown {
-    background-image: url("../../graphic_assets/color/4_brown.png");
+    background-image: url("../../graphic_assets/color/4_brown.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -285,7 +285,7 @@ color: #252525;
     left: 1019px;
 }
 .brown.active {
-    background-image: url("../../graphic_assets/color/4_brown_selected.png");
+    background-image: url("../../graphic_assets/color/4_brown_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -299,7 +299,7 @@ color: #252525;
 }
 
 .black {
-    background-image: url("../../graphic_assets/color/4_black.png");
+    background-image: url("../../graphic_assets/color/4_black.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -312,7 +312,7 @@ color: #252525;
     left: 1147px;
 }
 .black.active {
-    background-image: url("../../graphic_assets/color/4_black_selected.png");
+    background-image: url("../../graphic_assets/color/4_black_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;

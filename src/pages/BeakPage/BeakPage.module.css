@@ -84,7 +84,7 @@
 }
 
 .t0 {
-    background-image: url("../../graphic_assets/beak/3_1.png");
+    background-image: url("../../graphic_assets/beak/3_1.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -97,7 +97,7 @@
     left: 117px;
 }
 .t0.active {
-    background-image: url("../../graphic_assets/beak/3_1_selected.png");
+    background-image: url("../../graphic_assets/beak/3_1_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -111,7 +111,7 @@
 }
 
 .t1 {
-    background-image: url("../../graphic_assets/beak/3_2.png");
+    background-image: url("../../graphic_assets/beak/3_2.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -124,7 +124,7 @@
     left: 345px;
 }
 .t1.active {
-    background-image: url("../../graphic_assets/beak/3_2_selected.png");
+    background-image: url("../../graphic_assets/beak/3_2_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -138,7 +138,7 @@
 }
 
 .t2 {
-    background-image: url("../../graphic_assets/beak/3_3.png");
+    background-image: url("../../graphic_assets/beak/3_3.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -151,7 +151,7 @@
     left: 573px;
 }
 .t2.active {
-    background-image: url("../../graphic_assets/beak/3_3_selected.png");
+    background-image: url("../../graphic_assets/beak/3_3_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -165,7 +165,7 @@
 }
 
 .t3 {
-    background-image: url("../../graphic_assets/beak/3_4.png");
+    background-image: url("../../graphic_assets/beak/3_4.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -178,7 +178,7 @@
     left: 801px;
 }
 .t3.active {
-    background-image: url("../../graphic_assets/beak/3_4_selected.png");
+    background-image: url("../../graphic_assets/beak/3_4_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -192,7 +192,7 @@
 }
 
 .t4 {
-    background-image: url("../../graphic_assets/beak/3_5.png");
+    background-image: url("../../graphic_assets/beak/3_5.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -205,7 +205,7 @@
     left: 1029px;
 }
 .t4.active {
-    background-image: url("../../graphic_assets/beak/3_5_selected.png");
+    background-image: url("../../graphic_assets/beak/3_5_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;

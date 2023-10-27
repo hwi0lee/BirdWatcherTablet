@@ -19,14 +19,16 @@ const HabitatPage = () => {
         <div className="masterdiv">
             <div className={cx("title")}>특징 검색</div>
             <div className={cx("statusbar")}/>
-            <div className={cx("number")}>Question. 1</div>
-            <div className={cx("question")}>새를 관찰한 서식지는 어디였나요?</div>
-            <button className={cx("city", {active: data['habitat']==="City"})} onClick={setCity}></button>
-            <button className={cx("ocean", {active: data['habitat']==="Ocean"})} onClick={setOcean}></button>
-            <button className={cx("swamp", {active: data['habitat']==="Swamp"})} onClick={setSwamp}></button>
-            {/* {data['habitat']} */}
-            <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size")}></button>
-            <div className='backrec'/>
+            <div className='backrec'>
+                <div className={cx("number")}>Question. 1</div>
+                <div className={cx("question")}>새를 관찰한 서식지는 어디였나요?</div>
+                <div className={cx("container")}>
+                    <button className={cx("city", {active: data['habitat']==="City"})} onClick={setCity}></button>
+                    <button className={cx("ocean", {active: data['habitat']==="Ocean"})} onClick={setOcean}></button>
+                    <button className={cx("swamp", {active: data['habitat']==="Swamp"})} onClick={setSwamp}></button>
+                </div>
+                <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size")}></button>
+            </div>
         </div>
     )
 }

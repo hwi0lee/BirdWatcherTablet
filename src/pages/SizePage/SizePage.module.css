@@ -85,7 +85,7 @@
 }
 
 .s0 {
-    background-image: url("../../graphic_assets/size/2_1.png");
+    background-image: url("../../graphic_assets/size/2_1.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -98,7 +98,7 @@
     left: 116px;
 }
 .s0.active {
-    background-image: url("../../graphic_assets/size/2_1_selected.png");
+    background-image: url("../../graphic_assets/size/2_1_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -112,7 +112,7 @@
 }
 
 .s1 {
-    background-image: url("../../graphic_assets/size/2_2.png");
+    background-image: url("../../graphic_assets/size/2_2.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -125,7 +125,7 @@
     left: 307px;
 }
 .s1.active {
-    background-image: url("../../graphic_assets/size/2_2_selected.png");
+    background-image: url("../../graphic_assets/size/2_2_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -139,7 +139,7 @@
 }
 
 .s2 {
-    background-image: url("../../graphic_assets/size/2_3.png");
+    background-image: url("../../graphic_assets/size/2_3.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -152,7 +152,7 @@
     left: 499px;
 }
 .s2.active {
-    background-image: url("../../graphic_assets/size/2_3_selected.png");
+    background-image: url("../../graphic_assets/size/2_3_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -166,7 +166,7 @@
 }
 
 .s3 {
-    background-image: url("../../graphic_assets/size/2_4.png");
+    background-image: url("../../graphic_assets/size/2_4.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -179,7 +179,7 @@
     left: 690px;
 }
 .s3.active {
-    background-image: url("../../graphic_assets/size/2_4_selected.png");
+    background-image: url("../../graphic_assets/size/2_4_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -193,7 +193,7 @@
 }
 
 .s4 {
-    background-image: url("../../graphic_assets/size/2_5.png");
+    background-image: url("../../graphic_assets/size/2_5.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -206,7 +206,7 @@
     left: 882px;
 }
 .s4.active {
-    background-image: url("../../graphic_assets/size/2_5_selected.png");
+    background-image: url("../../graphic_assets/size/2_5_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -220,7 +220,7 @@
 }
 
 .s5 {
-    background-image: url("../../graphic_assets/size/2_6.png");
+    background-image: url("../../graphic_assets/size/2_6.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -233,7 +233,7 @@
     left: 1076px;
 }
 .s5.active {
-    background-image: url("../../graphic_assets/size/2_6_selected.png");
+    background-image: url("../../graphic_assets/size/2_6_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;

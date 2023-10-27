@@ -1,85 +1,79 @@
 .city {
-    background-image: url("../../graphic_assets/habitat/1_1.png");
+    background-image: url("../../graphic_assets/habitat/1_1.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: contain;
+    background-size: 364px;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 116px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .city.active {
-    background-image: url("../../graphic_assets/habitat/1_1_selected.png");
+    background-image: url("../../graphic_assets/habitat/1_1_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 116px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .ocean {
-    background-image: url("../../graphic_assets/habitat/1_2.png");
+    background-image: url("../../graphic_assets/habitat/1_2.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: contain;
+    background-size: 364px;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 500px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .ocean.active {
-    background-image: url("../../graphic_assets/habitat/1_2_selected.png");
+    background-image: url("../../graphic_assets/habitat/1_2_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 500px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .swamp {
-    background-image: url("../../graphic_assets/habitat/1_3.png");
+    background-image: url("../../graphic_assets/habitat/1_3.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: contain;
+    background-size: 364px;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 884px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .swamp.active {
-    background-image: url("../../graphic_assets/habitat/1_3_selected.png");
+    background-image: url("../../graphic_assets/habitat/1_3_selected.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
+    background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    position: absolute;
-    width: 364px;
-    height: 298px;
-    top: 481px;
-    left: 884px;
+    width: 376px;
+    height: 310px;
+    margin: auto;
 }
 
 .statusbar {
@@ -129,8 +123,8 @@
     position: absolute;
     width: 120px;
     height: 21px;
-    left: calc(50% - 106px/2 - 514px);
-    top: 347px;
+    left: 116px;
+    top: 60px;
 
     font-family: 'The Jamsil OTF';
     font-style: normal;
@@ -150,8 +144,8 @@
     position: absolute;
     width: 493px;
     height: 29px;
-    left: calc(50% - 493px/2 - 320.5px);
-    top: 383px;
+    left:116px;
+    top: 95px;
 
     font-family: 'The Jamsil OTF';
     font-style: normal;

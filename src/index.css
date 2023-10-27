@@ -33,8 +33,22 @@ code {
   background: #F1F8F8;
 }
 
+.container {
+  position: absolute;
+  width: 1366px;
+  height: 362px;
+  top: 160px;
+  background: white;
+  z-index: -50;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 116px;
+  padding-right: 116px;
+}
+
 .nextBtn {
-  background-image: url("./graphic_assets/buttons/NextBut.png");
+  background-image: url("./graphic_assets/buttons/NextBut.svg");
   background-color: transparent; /* make the button transparent */
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-size: contain;
@@ -43,13 +57,13 @@ code {
   position: absolute;
   width: 281.67px;
   height: 65px;
-  top: 833px;
+  bottom: 128px;
   left: 543px;
 }
 
 
 .returnBtn {
-  background-image: url("./graphic_assets/buttons/ReturnBut.png");
+  background-image: url("./graphic_assets/buttons/ReturnBut.svg");
   background-color: transparent; /* make the button transparent */
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-position: 0px 0px;  /* equivalent to 'top left' */

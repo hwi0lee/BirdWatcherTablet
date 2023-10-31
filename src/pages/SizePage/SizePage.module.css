@@ -168,7 +168,7 @@
     background-image: url("../../graphic_assets/size/2_6.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: 172px;
+    background-size: 182px;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */

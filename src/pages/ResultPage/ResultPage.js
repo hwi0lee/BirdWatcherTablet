@@ -72,12 +72,14 @@ const ResultPage = () => {
 
         return result
     }
-    const result = profile[rule(data)]['Name']
+    const result = rule(data)
+    const imgpath = `../result/${result.toString()}.jpg`
+    const resultnm = profile[result]['Name']
 
     return (
         <div>
-            {result}
-            <button className="returnBtn" onClick={() => window.location.href = '/habitat'}></button>
+          <img src={imgpath} height="1024px" width="1366px"/>
+          <button className="returnBtn" onClick={() => window.location.href = '/habitat'}/>
         </div>
     )
 }

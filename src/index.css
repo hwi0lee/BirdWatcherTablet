@@ -38,13 +38,56 @@ code {
   width: 1366px;
   height: 362px;
   top: 160px;
-  background: white;
   z-index: -50;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
-  padding-left: 116px;
-  padding-right: 116px;
+  padding-top: 32px;
+}
+
+.number {
+  /* Question.1 */
+
+  position: absolute;
+  width: 120px;
+  height: 21px;
+  left: 116px;
+  top: 60px;
+
+  font-family: 'The Jamsil OTF';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  /* or 240% */
+  display: flex;
+  align-items: center;
+
+  color: rgba(18, 63, 60, 0.75);
+}
+
+.question {
+  /* 새를 관찰한 서식지는 어디였나요? */
+
+  position: absolute;
+  width: 800px;
+  height: 29px;
+  left:116px;
+  top: 95px;
+
+  font-family: 'The Jamsil OTF';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 48px;
+  /* or 141% */
+  display: flex;
+  align-items: center;
+
+  /* On Background/1 */
+  color: #252525;
+
+
 }
 
 .nextBtn {

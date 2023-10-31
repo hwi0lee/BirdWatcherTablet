@@ -8,7 +8,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .city.active {
@@ -21,7 +21,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .ocean {
@@ -34,7 +34,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .ocean.active {
@@ -47,7 +47,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .swamp {
@@ -60,7 +60,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .swamp.active {
@@ -73,7 +73,7 @@
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
     width: 376px;
     height: 310px;
-    margin: auto;
+    margin: 10px;
 }
 
 .statusbar {
@@ -114,50 +114,5 @@
     color: #252525;
 
     z-index: 100;
-
-}
-
-.number {
-    /* Question.1 */
-
-    position: absolute;
-    width: 120px;
-    height: 21px;
-    left: 116px;
-    top: 60px;
-
-    font-family: 'The Jamsil OTF';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 48px;
-    /* or 240% */
-    display: flex;
-    align-items: center;
-
-    color: rgba(18, 63, 60, 0.75);
-}
-
-.question {
-    /* 새를 관찰한 서식지는 어디였나요? */
-
-    position: absolute;
-    width: 493px;
-    height: 29px;
-    left:116px;
-    top: 95px;
-
-    font-family: 'The Jamsil OTF';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 48px;
-    /* or 141% */
-    display: flex;
-    align-items: center;
-
-    /* On Background/1 */
-    color: #252525;
-
 
 }

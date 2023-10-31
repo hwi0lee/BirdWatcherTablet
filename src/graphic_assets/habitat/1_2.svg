@@ -1,19 +1,8 @@
-<svg width="380" height="314" viewBox="0 0 380 314" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g filter="url(#filter0_d_1164_648)">
-<rect x="8" y="4" width="364" height="298" rx="16" fill="white"/>
-</g>
-<rect x="28" y="7" width="313" height="263" fill="url(#pattern0)"/>
-<path d="M181.739 268.68H172.579V255.92H175.299V259.98H179.019V255.92H181.739V268.68ZM186.759 272.24L184.699 272.96C184.259 273.12 184.039 272.98 184.039 272.56V254.6H186.759V260.98H189.639V263.38H186.759V272.24ZM179.019 266.36V262.26H175.299V266.36H179.019ZM201.18 268.2H190.94V255.96H199.82V258.3H193.66V265.86H201.18V268.2ZM205.04 272.24L202.98 272.96C202.54 273.12 202.32 272.98 202.32 272.56V254.6H205.04V260.78H207.92V263.18H205.04V272.24Z" fill="#123F3C" fill-opacity="0.75"/>
+<svg width="364" height="298" viewBox="0 0 364 298" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="364" height="298" rx="16" fill="white"/>
+<rect x="20" y="3" width="313" height="263" fill="url(#pattern0)"/>
+<path d="M173.739 264.68H164.579V251.92H167.299V255.98H171.019V251.92H173.739V264.68ZM178.759 268.24L176.699 268.96C176.259 269.12 176.039 268.98 176.039 268.56V250.6H178.759V256.98H181.639V259.38H178.759V268.24ZM171.019 262.36V258.26H167.299V262.36H171.019ZM193.18 264.2H182.94V251.96H191.82V254.3H185.66V261.86H193.18V264.2ZM197.04 268.24L194.98 268.96C194.54 269.12 194.32 268.98 194.32 268.56V250.6H197.04V256.78H199.92V259.18H197.04V268.24Z" fill="#123F3C" fill-opacity="0.75"/>
 <defs>
-<filter id="filter0_d_1164_648" x="0" y="0" width="380" height="314" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="4"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1164_648"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1164_648" result="shape"/>
-</filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1164_648" transform="matrix(0.00150173 0 0 0.00178162 -1.46798 -1.64517)"/>
 </pattern>

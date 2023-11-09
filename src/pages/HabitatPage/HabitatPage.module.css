@@ -2,78 +2,90 @@
     background-image: url("../../graphic_assets/habitat/1_1.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: 364px;
+    background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .city.active {
-    background-image: url("../../graphic_assets/habitat/1_1_selected.svg");
+    background-image: url("../../graphic_assets/habitat/1_1.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    outline: 6px solid #123F3C;
+    border-radius: 16px;
 }
 
 .ocean {
     background-image: url("../../graphic_assets/habitat/1_2.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: 364px;
+    background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .ocean.active {
-    background-image: url("../../graphic_assets/habitat/1_2_selected.svg");
+    background-image: url("../../graphic_assets/habitat/1_2.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    outline: 6px solid #123F3C;
+    border-radius: 16px;
 }
 
 .swamp {
     background-image: url("../../graphic_assets/habitat/1_3.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
-    background-size: 364px;
+    background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .swamp.active {
-    background-image: url("../../graphic_assets/habitat/1_3_selected.svg");
+    background-image: url("../../graphic_assets/habitat/1_3.svg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
     background-position: center center;
     border: none;           /* assuming we don't want any borders */
     cursor: pointer;        /* make the cursor like hovering over an <a> element */
-    width: 376px;
-    height: 310px;
+    width: 364px;
+    height: 298px;
     margin: 10px;
+    outline: 6px solid #123F3C;
+    border-radius: 16px;
 }
 
 .statusbar {

@@ -64,7 +64,7 @@
 /* 마지막 질문입니다! 새의 주요 색상은 뭐였나요? */
 
 position: absolute;
-width: 714px;
+width: 1000px;
 height: 58px;
 left: calc(50% - 714px/2 - 210px);
 top: 369px;
@@ -94,6 +94,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 116px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .white.active {
     background-image: url("../../graphic_assets/color/4_white_selected.svg");
@@ -107,6 +109,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 116px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .gray {
@@ -121,6 +125,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 245px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .gray.active {
     background-image: url("../../graphic_assets/color/4_grey_selected.svg");
@@ -134,6 +140,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 245px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .red {
@@ -148,6 +156,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 373px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .red.active {
     background-image: url("../../graphic_assets/color/4_red_selected.svg");
@@ -161,6 +171,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 373px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .orange {
@@ -175,6 +187,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 503px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .orange.active {
     background-image: url("../../graphic_assets/color/4_orange_selected.svg");
@@ -188,6 +202,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 503px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .yellow {
@@ -202,6 +218,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 632px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .yellow.active {
     background-image: url("../../graphic_assets/color/4_yellow_selected.svg");
@@ -215,6 +233,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 632px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .green {
@@ -229,6 +249,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 760px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .green.active {
     background-image: url("../../graphic_assets/color/4_green_selected.svg");
@@ -242,6 +264,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 760px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .blue {
@@ -256,6 +280,10 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 889px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .blue.active {
     background-image: url("../../graphic_assets/color/4_blue_selected.svg");
@@ -269,6 +297,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 889px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .brown {
@@ -283,6 +313,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 1019px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .brown.active {
     background-image: url("../../graphic_assets/color/4_brown_selected.svg");
@@ -296,6 +328,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left:1019px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 
 .black {
@@ -310,6 +344,8 @@ color: #252525;
     height: 109px;
     top: 560px;
     left: 1147px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
 .black.active {
     background-image: url("../../graphic_assets/color/4_black_selected.svg");
@@ -323,4 +359,6 @@ color: #252525;
     height: 109px;
     top: 560px;
     left:1147px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }

@@ -6,7 +6,7 @@ const navTo = (navigator, key, data, url) => {
             }
         }
         else {
-            if (!value){
+            if (typeof value !== "number" && !value){
                 return false
             }
         }

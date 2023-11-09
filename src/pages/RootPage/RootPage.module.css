@@ -1,0 +1,11 @@
+/* App.css */
+  
+.background {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../public/main/mainpage.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  

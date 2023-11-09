@@ -19,7 +19,8 @@ code {
 }
 
 .masterdiv {
-  /* text-align: center; */
+  /* width: 1366px;
+  height: 1024px; */
 }
 
 .backrec {
@@ -102,8 +103,23 @@ code {
   height: 65px;
   bottom: 128px;
   left: 543px;
+  padding: 0px;
 }
 
+.startBtn{
+  background-image: url("./graphic_assets/buttons/StartBut.svg");
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-size: contain;
+  border: none;           /* assuming we don't want any borders */
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  position: absolute;
+  width: 523px;
+  height: 65px;
+  top: 860px;
+  left: 421px;
+  padding: 0px;
+}
 
 .returnBtn {
   background-image: url("./graphic_assets/buttons/ReturnBut.svg");
@@ -112,12 +128,12 @@ code {
   background-size: contain;
   border: none;           /* assuming we don't want any borders */
   cursor: pointer;        /* make the cursor like hovering over an <a> element */
-  width: 294px;
-  height: 77px;
+  width: 281.67px;
+  height: 65px;
   z-index: 100;
   position: absolute;
   top: 883px;
   left: 835px;
-
+  padding: 0px;
 }
 

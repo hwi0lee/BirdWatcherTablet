@@ -75,11 +75,18 @@ const ResultPage = () => {
     const result = rule(data)
     const imgpath = `../result/${result.toString()}.jpg`
     const resultnm = profile[result]['Name']
-
+    const divStyle = {
+      backgroundImage: `url(${imgpath})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: '1366px',
+      height: '1024px',
+      zIndex: 10,
+    };
     return (
-        <div>
-          <img src={imgpath} height="1024px" width="1366px"/>
-          <button className="returnBtn" onClick={() => window.location.href = '/habitat'}/>
+        <div className="masterdiv" style={divStyle}>
+          {/* <img src={imgpath} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/> */}
+          <button className="returnBtn" onClick={() => window.location.href = '/'}/>
         </div>
     )
 }

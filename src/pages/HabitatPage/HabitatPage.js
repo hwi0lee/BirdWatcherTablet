@@ -23,9 +23,9 @@ const HabitatPage = () => {
                 <div className={cx("number")}>Question. 1</div>
                 <div className={cx("question")}>새를 관찰한 서식지는 어디였나요?</div>
                 <div className={cx("container")}>
-                    <button className={cx("city", {active: data['habitat']==="City"})} onClick={setCity}></button>
-                    <button className={cx("ocean", {active: data['habitat']==="Ocean"})} onClick={setOcean}></button>
-                    <button className={cx("swamp", {active: data['habitat']==="Swamp"})} onClick={setSwamp}></button>
+                    <div className={cx("city", {active: data['habitat']==="City"})} onClick={setCity}></div>
+                    <div className={cx("ocean", {active: data['habitat']==="Ocean"})} onClick={setOcean}></div>
+                    <div className={cx("swamp", {active: data['habitat']==="Swamp"})} onClick={setSwamp}></div>
                 </div>
                 <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size")}></button>
             </div>

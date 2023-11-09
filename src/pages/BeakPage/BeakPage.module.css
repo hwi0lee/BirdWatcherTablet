@@ -1,5 +1,5 @@
 .statusbar {
-    background-image: url("../../graphic_assets/status_bar/progress3.png");
+    background-image: url("../../../public/graphic_assets/status_bar/progress3.png");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -40,7 +40,7 @@
 }
 
 .t0 {
-    background-image: url("../../graphic_assets/beak/3_1.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_1.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -54,7 +54,7 @@
     border-radius: 16px;
 }
 .t0.active {
-    background-image: url("../../graphic_assets/beak/3_1.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_1.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -69,7 +69,7 @@
 }
 
 .t1 {
-    background-image: url("../../graphic_assets/beak/3_2.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_2.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -83,7 +83,7 @@
     border-radius: 16px;
 }
 .t1.active {
-    background-image: url("../../graphic_assets/beak/3_2.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_2.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -98,7 +98,7 @@
 }
 
 .t2 {
-    background-image: url("../../graphic_assets/beak/3_3.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_3.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -112,7 +112,7 @@
     border-radius: 16px;
 }
 .t2.active {
-    background-image: url("../../graphic_assets/beak/3_3.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_3.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -127,7 +127,7 @@
 }
 
 .t3 {
-    background-image: url("../../graphic_assets/beak/3_4.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_4.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -141,7 +141,7 @@
     border-radius: 16px;
 }
 .t3.active {
-    background-image: url("../../graphic_assets/beak/3_4.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_4.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -156,7 +156,7 @@
 }
 
 .t4 {
-    background-image: url("../../graphic_assets/beak/3_5.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_5.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -170,7 +170,7 @@
     border-radius: 16px;
 }
 .t4.active {
-    background-image: url("../../graphic_assets/beak/3_5.svg");
+    background-image: url("../../../public/graphic_assets/beak/3_5.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;

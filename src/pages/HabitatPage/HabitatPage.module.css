@@ -1,5 +1,5 @@
 .city {
-    background-image: url("../../graphic_assets/habitat/1_1.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_1.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -14,7 +14,7 @@
 }
 
 .city.active {
-    background-image: url("../../graphic_assets/habitat/1_1.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_1.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -29,7 +29,7 @@
 }
 
 .ocean {
-    background-image: url("../../graphic_assets/habitat/1_2.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_2.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -44,7 +44,7 @@
 }
 
 .ocean.active {
-    background-image: url("../../graphic_assets/habitat/1_2.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_2.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -59,7 +59,7 @@
 }
 
 .swamp {
-    background-image: url("../../graphic_assets/habitat/1_3.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_3.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -74,7 +74,7 @@
 }
 
 .swamp.active {
-    background-image: url("../../graphic_assets/habitat/1_3.svg");
+    background-image: url("../../../public/graphic_assets/habitat/1_3.jpg");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;
@@ -89,7 +89,7 @@
 }
 
 .statusbar {
-    background-image: url("../../graphic_assets/status_bar/progress1.png");
+    background-image: url("../../../public/graphic_assets/status_bar/progress1.png");
     background-color: transparent; /* make the button transparent */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-size: contain;

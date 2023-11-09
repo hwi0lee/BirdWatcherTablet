@@ -1,5 +1,6 @@
 {
   "name": "bird_watcher",
+  "homepage": "http://bird_watcher.com",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

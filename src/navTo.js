@@ -1,4 +1,5 @@
-const navTo = (navigator, key, data, url) => {
+const navTo = (navigator, key, data, url, openModal) => {
+
     const isFalse =  (value) => {
         if (Array.isArray(value)) {
             if (value.length <= 0){
@@ -16,7 +17,7 @@ const navTo = (navigator, key, data, url) => {
         return navigator(url)
     }
     else {
-        return alert('항목을 선택해 주세요!')
+        return openModal()
     }
 }
 export default navTo

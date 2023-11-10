@@ -100,7 +100,7 @@
     height: 106px;
     top: 156px;
     left: 446px;
-    z-index: 100;
+    z-index: 1;
 }
 
 .title {
@@ -125,6 +125,6 @@
     /* On Background/1 */
     color: #252525;
 
-    z-index: 100;
+    z-index: 1;
 
 }

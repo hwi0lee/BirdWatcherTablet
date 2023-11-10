@@ -10,12 +10,6 @@ import StatusBar from './components/StatusBar/StatusBar';
 import { DataContextProvider } from './DataContext';
 
 function App() {
-
-  const globalState = {
-    data: 'This is a global value',
-    // 다른 전역 상태 데이터 추가
-  };
-
   return (
   <Router>
     <DataContextProvider>

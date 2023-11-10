@@ -1,0 +1,15 @@
+.loading {
+    background-image: url("../../../public/main/loading.jpg");
+    background-size: contain;
+    background-position: center;
+    width: 1366px;
+    height: 1024px;
+    z-index: 10;
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+}

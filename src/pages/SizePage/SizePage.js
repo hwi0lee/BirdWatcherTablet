@@ -4,10 +4,14 @@ import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
 import navTo from "../../navTo";
+import Modal from "../../components/Modal/Modal";
 
 const SizePage = () => {
     const navigator = useNavigate()
     const {data, setData} = useContext(DataContext)
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const openModal = () => setIsModalOpen(true)
+    const closeModal = () => setIsModalOpen(false)
     const sets0 = () => setData({...data, "size": 0})
     const sets1 = () => setData({...data, "size": 1})
     const sets2 = () => setData({...data, "size": 2})
@@ -30,8 +34,9 @@ const SizePage = () => {
                     <div className={cx("s4", {active: data['size']===4})} onClick={sets4}></div>
                     <div className={cx("s5", {active: data['size']===5})} onClick={sets5}></div>
                 </div>
-                <button className="nextBtn" onClick={() =>navTo(navigator, "size", data, "/beak")}></button>
+                <button className="nextBtn" onClick={() =>navTo(navigator, "size", data, "/beak", openModal)}></button>
             </div>
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
         </div>
     )
 }

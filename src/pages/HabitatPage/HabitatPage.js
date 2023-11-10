@@ -4,6 +4,7 @@ import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
 import { useNavigate } from "react-router"
 import navTo from "../../navTo";
+import Modal from "../../components/Modal/Modal";
 
 const cx = classNames.bind(styles)
 
@@ -14,6 +15,10 @@ const HabitatPage = () => {
     const setCity = () => setData({...data, "habitat": "City"})
     const setOcean = () => setData({...data, "habitat": "Ocean"})
     const setSwamp = () => setData({...data, "habitat": "Swamp"})
+
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const openModal = () => setIsModalOpen(true)
+    const closeModal = () => setIsModalOpen(false)
 
     return (
         <div className="masterdiv">
@@ -27,8 +32,9 @@ const HabitatPage = () => {
                     <div className={cx("ocean", {active: data['habitat']==="Ocean"})} onClick={setOcean}></div>
                     <div className={cx("swamp", {active: data['habitat']==="Swamp"})} onClick={setSwamp}></div>
                 </div>
-                <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size")}></button>
+                <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size", openModal)}></button>
             </div>
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
         </div>
     )
 }

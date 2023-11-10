@@ -4,11 +4,15 @@ import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
 import navTo from "../../navTo";
+import Modal from "../../components/Modal/Modal";
 
 const BeakPage = () => {
     const navigator = useNavigate()
     const {data, setData} = useContext(DataContext)
     const cx = classNames.bind(styles)
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const openModal = () => setIsModalOpen(true)
+    const closeModal = () => setIsModalOpen(false)
     const sett0 = () => setData({...data, "beak": "t0"})
     const sett1 = () => setData({...data, "beak": "t1"})
     const sett2 = () => setData({...data, "beak": "t2"})
@@ -28,8 +32,9 @@ const BeakPage = () => {
                     <div className={cx("t3", {active: data['beak']=="t3"})} onClick={sett3}></div>
                     <div className={cx("t4", {active: data['beak']=="t4"})} onClick={sett4}></div>
                 </div>
-                <button className="nextBtn" onClick={() => navTo(navigator, "beak", data, "/color")}></button>
+                <button className="nextBtn" onClick={() => navTo(navigator, "beak", data, "/color", openModal)}></button>
             </div>
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
         </div>
     )
 }

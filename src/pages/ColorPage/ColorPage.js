@@ -4,8 +4,14 @@ import classNames from "classnames/bind"
 import { useState, useEffect, useContext } from "react"
 import DataContext from "../../DataContext"
 import navTo from "../../navTo";
+import Modal from "../../components/Modal/Modal";
 
 const ColorPage = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const openModal = () => setIsModalOpen(true)
+    const closeModal = () => setIsModalOpen(false)
+
     const MAXSEL = 3
     const [colorlist, setColorlist] = useState([])
     const navigator = useNavigate()
@@ -147,7 +153,8 @@ const ColorPage = () => {
             <div className={cx("brown", {active: colorlist.includes("Brown")})} onClick={setBrown}></div>
             <div className={cx("black", {active: colorlist.includes("Black")})} onClick={setBlack}></div>
             {/* {colorlist} */}
-            <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result")}></button>
+            <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result", openModal)}></button>
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
             <div className='backrec'/>
         </div>
     )

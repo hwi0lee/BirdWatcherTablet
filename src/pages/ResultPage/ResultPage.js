@@ -78,7 +78,7 @@ const ResultPage = () => {
     useEffect(() => {
       const timeoutId = setTimeout(() => {
         setShowImage(false);
-      }, 1000 * 1000); // t 초를 밀리초로 변환
+      }, 3 * 1000); // t 초를 밀리초로 변환
   
       return () => clearTimeout(timeoutId);
     }, []);

@@ -5,13 +5,13 @@ const cx = classNames.bind(styles)
 
 const Spinner = () => {
     return(
-    <div class={cx("main")}>
-        <div class={cx("droplet_spinner")}>
-            <div class={cx("droplet")}></div>
-            <div class={cx("droplet")}></div>
-            <div class={cx("droplet")}></div>
-            <div class={cx("droplet")}></div>
-            <div class={cx("droplet")}></div>
+    <div className={cx("main")}>
+        <div className={cx("droplet_spinner")}>
+            <div className={cx("droplet")}></div>
+            <div className={cx("droplet")}></div>
+            <div className={cx("droplet")}></div>
+            <div className={cx("droplet")}></div>
+            <div className={cx("droplet")}></div>
         </div>
     </div>
 

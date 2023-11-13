@@ -34,7 +34,7 @@ const HabitatPage = () => {
                 </div>
                 <button className="nextBtn" onClick={() => navTo(navigator, "habitat", data, "/size", openModal)}></button>
             </div>
-            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />
         </div>
     )
 }

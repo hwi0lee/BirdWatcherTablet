@@ -34,7 +34,7 @@ const BeakPage = () => {
                 </div>
                 <button className="nextBtn" onClick={() => navTo(navigator, "beak", data, "/color", openModal)}></button>
             </div>
-            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />
         </div>
     )
 }

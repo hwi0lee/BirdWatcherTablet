@@ -36,7 +36,7 @@ const SizePage = () => {
                 </div>
                 <button className="nextBtn" onClick={() =>navTo(navigator, "size", data, "/beak", openModal)}></button>
             </div>
-            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />
         </div>
     )
 }

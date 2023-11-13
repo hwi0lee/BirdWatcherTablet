@@ -154,7 +154,7 @@ const ColorPage = () => {
             <div className={cx("black", {active: colorlist.includes("Black")})} onClick={setBlack}></div>
             {/* {colorlist} */}
             <button className="nextBtn" onClick={() => navTo(navigator, "color", data, "/result", openModal)}></button>
-            <Modal isOpen={isModalOpen} closeModal={closeModal} />;
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />
             <div className='backrec'/>
         </div>
     )
